@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 800;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.4em;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+}
+
+section {
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #1b5e20;
+    font-size: 2.5em;
+    font-family: 'Abril Fatface', cursive;
+    border-bottom: 4px solid #4caf50;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background: #e8f5e9;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 6px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background: #388e3c;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Playfair Display', serif;
+}
+
+button:hover {
+    background: #2e7d32;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 40px;
+    padding: 25px;
+    background: #1b5e20;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+    font-family: 'Lora', serif;
+    font-size: 0.9em;
+}
+
+footer .contact-info {
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+footer .contact-info a {
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #fff;
+    color: #1b5e20;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    background: #4caf50;
+    color: white;
+}
+
+.footer-social a i {
+    margin-right: 8px;
+}
+
+.footer-social a[href*='linkedin.com'] {
+    background: #0077b5;
+    color: white;
+}
+
+.footer-social a[href*='facebook.com'] {
+    background: #1877f2;
+    color: white;
+}
+
+.footer-social a {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+<footer>
+    <p>© 2025 Reforest. All rights reserved. Green Kolkata.</p>
+    <p class="contact-info">
+        Email: <a href="mailto:dhrubo@reforest.co.in">dhrubo@reforest.co.in</a><br>
+        Phone: <a href="tel:+919874076688">+91 98740 76688</a><br>
+        Address: AA II, Akankha, Newtown, Kolkata 161
+    </p>
+    <div class="footer-social">
+        <a href="https://www.linkedin.com/company/reforest-kolkata" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/ReforestKolkata/" target="_blank">Facebook</a>
+    </div>
+</footer>
